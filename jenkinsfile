@@ -1,0 +1,20 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                sleep(5secs)
+            }
+        }
+        stage('Test') { 
+            steps {
+               sleep(5secs)
+            }
+        }
+        stage('Deploy') { 
+            steps {
+             sleep(5secs)
+            }
+        }
+    }
+}
